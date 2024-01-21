@@ -1,6 +1,12 @@
 const inputbox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-container");
 
+let currentDate = new Date();
+
+
+
+document.getElementById("currentDate").innerHTML =  currentDate;
+
 const addtask = () =>
 {
     if(inputbox.value === "")
