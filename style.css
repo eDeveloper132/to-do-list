@@ -30,8 +30,9 @@
 }
 .todo_app h2 img
 {
-    width: 30px;
+    width: 50px;
     margin-left: 10px;
+    height: 50px;
 }
 .row
 {
